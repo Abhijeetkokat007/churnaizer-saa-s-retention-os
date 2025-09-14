@@ -1,0 +1,23 @@
+{
+  "name": "@churnaizer/sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for Churnaizer retention analytics",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build"
+  },
+  "keywords": ["churn", "retention", "analytics", "saas", "sdk"],
+  "author": "Churnaizer",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/churnaizer/sdk"
+  },
+  "homepage": "https://churnaizer.com"
+}
